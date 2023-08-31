@@ -1,0 +1,165 @@
+.all{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://th.bing.com/th/id/R.d904aa05083cb22c205f08e556b71bc4?rik=JNVEZjHbRsdxEg&riu=http%3a%2f%2fmononanimalhospital.files.wordpress.com%2f2011%2f02%2fdog-and-cat.jpg&ehk=BHkeddiEKZt6FqfjZWL3jB6HaO2fRNfBW9MEF3BwiLg%3d&risl=&pid=ImgRaw&r=0")
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newProduct {
+  width: 70%;
+  margin-left: 5px;
+  padding-left: 18px;
+  padding-top: 4px;
+  padding-right: 18px;
+  background-color: #f8f9fa  ;
+  opacity: 0.89;
+}
+.addProduct{
+  display: flex;
+  flex-wrap: wrap
+}
+.addProductForm {
+  margin-top: 10px;
+  width: 50%;
+}
+
+
+.addProductItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.addProductItem > label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.addProductItem > select {
+  padding: 10px;
+}
+.addProductItem > input {
+  padding: 10px;
+}
+
+
+.addImge>label{
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.addImge > input {
+  padding: 10px;
+}
+.ImgeInput{
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  height: 240px;
+  justify-content: center;
+  align-items: center;
+  background-color: #aaa;
+  margin-bottom: 2px;
+}
+
+.label{
+  height: 50px;
+  width: 50px;
+  background-color: rgb(210, 214, 213);
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  border-radius: 90px;
+}
+.labe1{
+  display: flex;
+  flex: 1;
+  color: white; 
+}
+.addImge{
+  display: flex;  
+  flex-direction: column;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  width:48%;
+  cursor: pointer;
+}
+
+
+.addProductItem1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.addProductItem1 > label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.addProductItem1 > select {
+  padding: 10px;
+  margin-right: 5px;
+}
+.addProductItem1 > input {
+  padding: 10px;
+  margin-left: 5px;
+}
+.addProductButton {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+}
+.addProductButton1 {
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.errorMsg {
+  max-width: 100%;
+  color:rgb(241, 0, 0);
+  font-weight: 600;
+  font-size: 15px;
+  margin-left: 10%;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+@media (max-width: 768px)
+{
+  .addProductForm{
+    width: 100%;
+  }
+  .addImge{
+    width: 100%;
+    padding-left: 0;
+
+  }
+  .addProductButton1{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+}

@@ -1,0 +1,75 @@
+
+.text {
+ margin-bottom: 20px;
+ color: #FFFFFF;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(128, 128, 128, 0.449);
+  opacity: 0.89;
+  width: 300px;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 5%;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  margin-top: 31px;
+}
+.form .login{
+  margin-bottom: 15px;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 15px 0px 15px 0px;
+  padding: 5% ;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: black;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+  width: 45%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+
+.errorMsg {
+  max-width: 100%;
+  color:rgb(241, 0, 0);
+  font-weight: 600;
+  font-size: 15px;
+}
+@media(max-width: 500px)
+{
+  .form {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
